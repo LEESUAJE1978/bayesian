@@ -1,0 +1,7 @@
+(ex = integrate(function(x) 2* x^2, 0,1))
+(vv = integrate(function(x) 2 * x^3, 0, 1))
+(va = vv$value-ex$value^2)
+(va = integrate(function(x) x - ex$value^2*2*x, 0,1))
+xa = seq(0,1,0.01)
+plot(xa, 2*xa, type = "h", main = "Probability  Distibution", lwd=2)
+plot(xa, cumsum(2*xa), type = 'l', main = 'Cumulative Proobability')
