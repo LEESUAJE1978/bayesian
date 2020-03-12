@@ -15,3 +15,6 @@ xpnorm(80, mean = 60, sd = 10) #80kg 이상일 확률
 xpnorm(c(55,65), mean = 60, sd = 10) #55kg에서 65kg 사이 획률
 
 
+
+# file:///C:/Users/tkpeo/Downloads/mosaic-cheatsheet-gf.pdf  mosaic package 단축키
+
