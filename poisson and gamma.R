@@ -1,4 +1,4 @@
-plot(dpois(seq(0,20), 4), type = 'l',ylim = c(0, 0.3), main = 'Poison Distribution by various Parameters')
+plot(dpois(seq(0,20), 4), type = 'l',ylim = c(0, 0.3), main = 'Poisson Distribution by various Parameters')
 lines(dpois(seq(0,20),2), lty  = 2, col = 'red')
 lines(dpois(seq(0,20), 6), lty = 3, col = 'blue')
 grid()
